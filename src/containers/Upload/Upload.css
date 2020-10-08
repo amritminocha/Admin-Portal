@@ -1,0 +1,51 @@
+body{
+    height: 100%;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20vw;    
+    /* make it 100% */
+    border: 4px solid blue;
+    background-color: black;
+
+    @media(min-width:510px) {
+        width: 75vw;
+    }
+}
+.sidebar{
+    /* background-color: black; */
+    border: 4px solid yellow;
+    
+}
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: fit-content; */
+    width: 100%;
+    margin-left: 2em;
+    border: 2px solid violet;
+}
+
+.rowfluid {
+    position: fixed;
+    overflow: auto; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    white-space: nowrap;
+    height: 90.5vh;
+    border: 2px solid red;
+}
+
+.rightDiv {
+    min-width: 0;
+    width: 100%;
+    border: 2px solid green;
+}
