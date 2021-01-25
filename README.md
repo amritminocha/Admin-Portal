@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This is an admin_dashboard for an educational website to upload and edit courses ,also integrated with google drive and dropbpx api.
 ## Available Scripts
 
 In the project directory, you can run:
